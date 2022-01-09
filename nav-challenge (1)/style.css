@@ -141,12 +141,9 @@ header {
   padding-left: 0;
 }
 
-.nav__list-secondary {
-  margin-top: 2em;
-}
 
-.nav__list-secondary > {
-  border: 4px solid red;
+.nav__list--secondary li {
+  padding-bottom: 1em;
 }
 
 .nav__link--button {
@@ -163,11 +160,9 @@ header {
     position: relative;
 }
 
-
 .logo {
     height: 30px;
 }
-
 
 .hero {
     padding: 100px 0;
@@ -197,9 +192,7 @@ header {
 }
 
 
-
-
-@media (min-width: 800px) {
+@media (min-width: 840px) {
 
 
     .nav-toggle {
@@ -209,13 +202,16 @@ header {
     .nav {
         visibility: visible;
         display: flex;
+        justify-content: space-between;
         height: auto;
+        position: relative;
     }
 
     .row {
         display: flex;
         justify-content: space-between;
-
+        align-items: center;
+        padding: 1em;
     }
 
     .hero__text {
@@ -234,6 +230,23 @@ header {
 
     .sidebar {
         width: 32%;
+    }
+
+    .logo {
+      margin-right: 1em;
+    }
+
+    .nav__list {
+      display: flex;
+      gap: 1em;
+    }
+
+    .nav__list--secondary li {
+      padding: 0;
+    }
+
+    .nav__item {
+      padding: 0;
     }
 
 
