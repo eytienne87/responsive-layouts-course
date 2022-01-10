@@ -1,0 +1,27 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --white-header: #fff;
+  --gold-header: #A59678;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--white-header);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
