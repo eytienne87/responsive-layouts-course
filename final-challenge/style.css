@@ -15,59 +15,101 @@ body {
   font-size: 1rem;
 }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 4rem;
-  line-height: 1;
-  color: var(--gold-header);
-}
-
-h3 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.6rem;
-  line-height: 1;
-  color: var(--gold-header);
-  margin: 0;
-}
-
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
+/* Hero */
 
-.hero-text {
-  color: var(--white-header);
-  margin-bottom: 2em;
-}
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    line-height: 1;
+    color: var(--gold-header);
+  }
 
-.hero-header-first-part {
-  color: var(--white-header);
-}
+  .hero-text {
+    color: var(--white-header);
+    margin-bottom: 2em;
+  }
 
-.hero {
-  background-color: var(--purple-background);
-  padding: 1em 1em 3em 1em;
-}
+  .hero-header-first-part {
+    color: var(--white-header);
+  }
 
-.hero-btn {
-  text-decoration: none;
-  color: var(--white-header);
-  background-color: var(--gold-header);
-  border-radius: 100px;
-  padding: 0.5em 1em;
-  font-family: 'Oswald';
-  text-transform: uppercase;
-}
+  .hero {
+    background-color: var(--purple-background);
+    padding: 1em 1em 3em 1em;
+  }
 
-/* section one */
+  .hero-btn {
+    text-decoration: none;
+    color: var(--white-header);
+    background-color: var(--gold-header);
+    border-radius: 100px;
+    padding: 0.5em 1em;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+  }
 
-.section-one {
-  background-color: rgb(237, 237, 237);
-  padding: 2em 0;
-}
+/* Section one */
 
-.text-column  {
-  text-align: center;
-  padding: 2em;
-}
+  .section-one {
+    background-color: rgb(237, 237, 237);
+    padding: 2em 0;
+  }
+
+  .text-column  {
+    text-align: center;
+    padding: 2em;
+  }
+
+  .subheader {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .subheader-one {
+    color: var(--gold-header);
+  }
+
+/* Section two */
+
+  .section-two {
+    padding: 2em 0;
+  }
+
+  /* image and text */
+
+  img {
+    width: 100%;
+  }
+
+  .subheader-two {
+    color: var(--gold-header);
+    font-size: 2rem;
+  }
+
+  /* 3 cards */
+
+  .column-section {
+    margin-top: 2em;
+  }
+
+  .text-column-section-two  {
+    text-align: center;
+    background-color: var(--purple-background);
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+
+  .subheader-two-cards {
+    color: var(--white-header);
+  }
+
+  .text-column-paragraph-two {
+    color: var(--white-header);
+  }
