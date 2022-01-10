@@ -7,6 +7,7 @@
   --white-header: #fff;
   --gold-header: #A59678;
   --purple-background: #3B4050;
+  --nav-background: #2E323F;
 }
 
 body {
@@ -19,6 +20,84 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
+/* Hamburger Menu */
+
+.header {
+  background-color: var(--nav-background);
+  padding: 1em;
+}
+
+.header-container {
+  position: relative;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+nav {
+  display: none;
+}
+
+.hamburger,
+.hamburger::after,
+.hamburger::before {
+  margin: 0 auto;
+  background-color: var(--nav-background);
+  display: block;
+  height: 3px;
+}
+
+.hamburger::before {
+  content: '';
+  width: 100%;
+}
+
+.hamburger::after {
+  content: '';
+  width: 100%;
+}
+
+.hamburger::before { transform: translateY(-6px);}
+.hamburger::after { transform: translateY(3px);}
+
+.nav-toggle {
+  width: 3em;
+  height: 3em;
+  border-radius: 100px;
+  border: none;
+  position: absolute;
+}
+
+.nav-visible {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 1em 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 0;
+  margin-bottom: 1em;
+  padding: 0;
+  color: var(--white-header);
+}
+
+
+
 
 /* Hero */
 
