@@ -6,6 +6,7 @@
 :root {
   --white-header: #fff;
   --gold-header: #A59678;
+  --purple-background: #3B4050;
 }
 
 body {
@@ -14,14 +15,37 @@ body {
   font-size: 1rem;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 4rem;
   line-height: 1;
+  color: var(--gold-header);
+}
+
+.hero-text {
   color: var(--white-header);
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
+.hero-header-first-part {
+  color: var(--white-header);
+}
+
+.hero {
+  background-color: var(--purple-background);
+  padding: 1em;
+}
+
+.hero-btn {
+  text-decoration: none;
+  color: var(--white-header);
+  background-color: var(--gold-header);
+  border-radius: 100px;
+  padding: 0.5em 1em;
+  font-family: 'Oswald';
+  text-transform: uppercase;
 }
