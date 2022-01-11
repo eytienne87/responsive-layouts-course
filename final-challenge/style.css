@@ -18,6 +18,7 @@ body {
 
 .container {
   width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -25,7 +26,7 @@ body {
 
 .header {
   background-color: var(--nav-background);
-  padding: 1em;
+  padding: 1em 1em 1.25em 1em;
 }
 
 .header-container {
@@ -63,11 +64,16 @@ nav {
 .hamburger::after { transform: translateY(3px);}
 
 .nav-toggle {
+  cursor: pointer;
   width: 3em;
   height: 3em;
   border-radius: 100px;
   border: none;
   position: absolute;
+}
+
+.nav-toggle:hover {
+  opacity: 0.5;
 }
 
 .nav-visible {
@@ -86,9 +92,14 @@ nav {
   text-align: center;
 }
 
+.nav-list li {
+  margin-bottom: 1em;
+}
+
 .nav-item {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 1px;
   margin-left: 0;
   margin-bottom: 1em;
@@ -96,8 +107,9 @@ nav {
   color: var(--white-header);
 }
 
-
-
+.nav-item:hover {
+  opacity: 0.5;
+}
 
 /* Hero */
 
@@ -130,6 +142,10 @@ nav {
     padding: 0.5em 1em;
     font-family: 'Oswald';
     text-transform: uppercase;
+  }
+
+  .hero-btn:hover {
+    opacity: 0.5;
   }
 
 /* Section one */
