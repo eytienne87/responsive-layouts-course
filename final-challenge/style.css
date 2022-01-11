@@ -22,6 +22,13 @@ body {
   margin: 0 auto;
 }
 
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1;
+  margin: 0;
+}
+
 /* Hamburger Menu */
 
 .header {
@@ -160,13 +167,6 @@ nav {
     padding: 2em;
   }
 
-  .subheader {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.6rem;
-    line-height: 1;
-    margin: 0;
-  }
-
   .subheader-one {
     color: var(--gold-header);
   }
@@ -208,3 +208,55 @@ nav {
   .text-column-paragraph-two {
     color: var(--white-header);
   }
+
+/* Footer */
+
+.footer {
+  padding: 2em;
+  background-color: var(--purple-background);
+}
+
+.subheader-footer {
+  font-size: 1.33rem;
+  color: var(--white-header);
+  margin-bottom: 1em;
+}
+
+
+.subheader-subsection-footer {
+  color: var(--gold-header);
+  font-size: 1.16rem;
+  margin-bottom: 0.5em;
+}
+
+.links-subsection-footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.subsection-footer {
+  margin-bottom: 0.5em;
+}
+
+.links-subsection-footer li {
+  margin-bottom: 0.5em;
+}
+
+.link-footer {
+  text-decoration: none;
+  font-size: 0.88rem;
+  color: var(--white-header);
+  opacity: 0.5;
+}
+
+.subsection-footer p {
+  color: var(--white-header);
+  font-size: 0.88rem;
+  opacity: 0.5;
+}
+
+.link-footer:hover {
+  opacity: 1;
+}
