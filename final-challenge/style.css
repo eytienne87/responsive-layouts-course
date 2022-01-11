@@ -164,7 +164,7 @@ nav {
 
   .text-column  {
     text-align: center;
-    padding: 2em;
+    padding: 1.5em 2em;
   }
 
   .subheader-one {
@@ -174,7 +174,7 @@ nav {
 /* Section two */
 
   .section-two {
-    padding: 2em 0;
+    padding: 2em 0 0 0;
   }
 
   /* image and text */
@@ -207,6 +207,7 @@ nav {
 
   .text-column-paragraph-two {
     color: var(--white-header);
+    opacity: 0.8;
   }
 
 /* Footer */
@@ -222,7 +223,6 @@ nav {
   margin-bottom: 1em;
 }
 
-
 .subheader-subsection-footer {
   color: var(--gold-header);
   font-size: 1.16rem;
@@ -234,7 +234,6 @@ nav {
   margin: 0;
   padding: 0;
 }
-
 
 .subsection-footer {
   margin-bottom: 0.5em;
