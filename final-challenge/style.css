@@ -20,6 +20,7 @@ body {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
+  border: 2px solid red;
 }
 
 h3 {
@@ -258,4 +259,23 @@ nav {
 
 .link-footer:hover {
   opacity: 1;
+}
+
+@media screen and (min-width: 700px) {
+  /* Hero */
+
+  /* Section 2 */
+  /* 3 cards */
+  .column-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .text-column-section-two {
+    flex: 0 0 48%;
+    margin-bottom: 0;
+  }
+
 }
