@@ -272,14 +272,7 @@ nav {
     padding: 2em 0 1em 0;
   }
 
-  .text-column  {
-    flex: 0 0 48.5%;
-    padding: 0 1em;
-  }
-
-  /* Section 2 */
-
-  .row {
+  .section-one .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -288,9 +281,29 @@ nav {
     margin-bottom: 1em;
   }
 
-  .text-column-section-two {
+  .text-column  {
     flex: 0 0 48.5%;
+    padding: 0 1em;
+  }
+
+  /* Section 2 */
+
+  .column-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .text-column-section-two {
     margin-bottom: 0;
+    width: 48%;
+  }
+
+  .column-section:last-child {
+    margin: 0 auto;
   }
 
   /* Footer */
@@ -323,5 +336,47 @@ nav {
 
   .hero-text-subsection {
     margin-bottom: 0.85em;
+  }
+
+  /* Section one */
+
+  .section-one {
+    padding: 6em 2em;
+  }
+
+  .section-one .container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5em;
+  }
+
+  .text-column {
+    flex: 0 1 auto;
+  }
+
+  /* Section 2 */
+
+  .section-two {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 5em;
+    margin-bottom: 1.5em;
+  }
+
+  .column-section {
+    margin-top: 0;
+  }
+
+  .img-section .container,
+  .column-section .container {
+    display: block;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .text-column-section-two {
+    margin-bottom: 1em;
   }
 }
