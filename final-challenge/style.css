@@ -20,7 +20,6 @@ body {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 h3 {
@@ -124,7 +123,7 @@ nav {
   h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 4rem;
-    line-height: 1;
+    line-height: 1.1;
     color: var(--gold-header);
   }
 
@@ -236,6 +235,10 @@ nav {
   padding: 0;
 }
 
+.row-footer {
+  display: block;
+}
+
 .subsection-footer {
   margin-bottom: 0.5em;
 }
@@ -263,19 +266,41 @@ nav {
 
 @media screen and (min-width: 700px) {
   /* Hero */
+  /* Section 1 */
+  .section-one {
+    padding: 2em 0 1em 0;
+  }
 
+  .text-column  {
+    flex: 0 0 48.5%;
+    padding: 0 1em;
+  }
   /* Section 2 */
-  /* 3 cards */
-  .column-section {
+
+  .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   .text-column-section-two {
-    flex: 0 0 48%;
+    flex: 0 0 48.5%;
     margin-bottom: 0;
   }
 
+  /* Footer */
+
+  .row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+    margin-top: 2em;
+  }
+
+  .subsection-footer {
+    width: 48%;
+  }
 }
