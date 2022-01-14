@@ -304,6 +304,7 @@ nav {
 
   .column-section:last-child {
     margin: 0 auto;
+    margin-top: 0.3em;
   }
 
   /* Footer */
