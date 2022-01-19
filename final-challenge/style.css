@@ -292,9 +292,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 1.5em;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
 
   .text-column-section-two {
@@ -302,9 +301,8 @@ nav {
     width: 48%;
   }
 
-  .column-section:last-child {
-    margin: 0 auto;
-    margin-top: 0.3em;
+  .text-column-section-two:last-child {
+    margin: 1.5em auto 0;
   }
 
   /* Footer */
