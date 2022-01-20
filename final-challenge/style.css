@@ -150,10 +150,16 @@ nav {
     padding: 0.5em 1.5em;
     font-family: 'Oswald';
     text-transform: uppercase;
+    transition: color 100ms ease-in,
+                background-color 100ms ease-in,
+                border 100ms ease-in;
+    border: 2px solid transparent;
   }
 
   .hero-btn:hover {
-    opacity: 0.5;
+    background-color: var(--white-header);
+    color: var(--gold-header);
+    border: 2px solid var(--gold-header);
   }
 
 /* Section one */
@@ -323,6 +329,41 @@ nav {
 }
 
 @media screen and (min-width: 1000px) {
+
+  /* Header */
+
+  .nav-toggle {
+    display: none;
+  }
+
+  nav {
+    display: block;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .nav-list li {
+    margin-bottom: 0;
+  }
+
+  .nav-list li + li {
+    margin-left: 2em;
+  }
+
+  .navigation {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+  }
 
   /* Hero */
 
