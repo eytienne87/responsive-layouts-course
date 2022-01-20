@@ -36,7 +36,7 @@ h3 {
   padding: 1em 1em 1.25em 1em;
 }
 
-.header-container {
+.header .container {
   position: relative;
 }
 
@@ -77,6 +77,7 @@ nav {
   border-radius: 100px;
   border: none;
   position: absolute;
+  top: -6px;
 }
 
 .nav-toggle:hover {
@@ -218,7 +219,7 @@ nav {
 }
 
 .subheader-footer {
-  font-size: 1.33rem;
+  font-size: 2rem;
   color: var(--white-header);
   margin-bottom: 1em;
 }
@@ -262,6 +263,7 @@ nav {
 
 .box {
   /* border: 2px solid red; */
+  width: 40%;
 }
 
 @media screen and (min-width: 700px) {
@@ -317,6 +319,7 @@ nav {
   .subsection-footer {
     width: 48%;
   }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -382,11 +385,16 @@ nav {
 
   /* Footer */
 
+  .subheader-footer {
+    text-align: center;
+  }
+
   .content-footer {
     flex-wrap: nowrap;
   }
 
   .subsection-footer ~ .subsection-footer {
-    flex: 1 0 20%;
+    flex: 1 0 25%;
   }
+
 }
